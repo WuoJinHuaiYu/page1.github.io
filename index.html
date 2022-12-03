@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Snow (Pure CSS)</title>
+  <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            display: flex;
+			width: 500vh;
+			
+        }
+        .a{
+            position: relative;
+        }
+        .a .b:hover{
+            transform: rotateY(180deg);
+        }
+		.a .b1:hover{
+            transform: rotateY(180deg);
+        }
+		.a .b2:hover{
+            transform: rotateY(180deg);
+        }
+		.a .b3:hover{
+            transform: rotateY(180deg);
+        }
+		.a .b4:hover{
+            transform: rotateY(180deg);
+        }
+		.a .b5:hover{
+            transform: rotateY(180deg);
+        }
+		
+
+		.b,.b1,.b2,.b3,.b4,.b5{
+			width: 300px;
+            height: 400px;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            transform-style: preserve-3d;
+            transition: 1.5s;
+            box-shadow: 0 0 0px #000;
+		}
+        .b{
+
+			position: absolute;
+			left: 10px;
+			top: 25%;
+			
+        }
+		.b1{
+			margin-top: 0px;
+			position: absolute;
+			left: 440px;
+        }
+		
+		.b2{
+			margin-top: 0px;
+			position: absolute;
+			left: 900px;
+        }
+		
+		.b3{
+			top: 52%;
+			position: absolute;
+			left: 440px;
+        }
+		
+		.b4{
+			top: 52%;
+			position: absolute;
+			left: 900px;
+        }
+		
+		.b5{
+			position: absolute;
+			left: 1280px;
+			top: 25%;
+        }
+        .c{
+            position: absolute;
+            color: rgba(255,255,255,.9);
+            font:900 60px '';
+            /* 设置字体间距 */
+            letter-spacing: 10px;
+            line-height: 400px;
+        }
+		.d{
+            position: absolute;
+            color: rgba(255,255,255,.9);
+            font:500 20px'';
+            /* 设置字体间距 */
+            letter-spacing: 1px;
+            line-height: 27px;
+        }
+        .c{ 
+            transform:translateZ(70px);
+        }
+        .d{
+            transform:translateZ(-70px) rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+	<div class="a">
+
+        <div class="b" style="background-image: url(1.png);">
+            <span class="c">薄雾</span>
+            <span class="d"><br><br>宇宙无限<br>世界万千<br><br>所有时代不可能同时存在<br>“它”却能同时存在于所有时代<br><br>他穿越过的那些过往<br>终于重新变成了他期待过的未来</span>
+        </div>
+		<div class="b1" style="background-image: url(1.7.1.png);">
+            <span class="c">气泡世界</span>
+            <span class="d"><br>在时间锚概念中<br>那一个个循环<br>就是所谓的时间气泡<br>它超出时间线之外<br>自成一个世界<br>如果投入使用，会引发严重的时间悖论<br><br>“气泡终究是气泡<br>你的遗憾短暂地被满足以后，它终究会逝去<br>可是你的人生不会”</span>
+        </div>
+		<div class="b2" style="background-image: url(1.3.png);">
+            <span class="c">衔尾蛇</span>
+            <span class="d">同一个锚点<br>衔尾蛇般的循环<br><br>一旦产生悖论<br>圆环上已经发生或尚未发生的点就会被覆盖<br>一点点补齐的圆环<br>是未来的数个自己奋不顾身的意义<br><br>他们制造黑暗<br>又成为去追逐黑暗的人<br>在某种意义上<br>可能这才是真正的破局</span>
+        </div>
+		<div class="b3" style="background-image: url(1.1.2.png);">
+            <span class="c">卡俄斯</span>
+            <span class="d"><br>希腊神话中最初诞生的神<br>从字面意义上来理解<br>则为一条无边无际、充满黑暗的裂缝<br><br>他们于裂缝中坠落<br>混乱的磁场<br>远超常理的时间流速<br>在荧光花焚烧的烈焰中湮灭</span>
+        </div>
+		<div class="b4" style="background-image: url(1.6.1.png);"> 
+            <span class="c">魔方</span>
+            <span class="d"><br><br><br>“它”以恒定时间的人类躯体作为载体<br>若经过两个处于同一时间线且顺序正确的房间<br>则完成拼接，合二为一<br><br>时间的运作精密无比<br>它是一切存在的唯一证明<br>重新拥有时间<br>就能重新存在于这个世界</span>
+        </div>
+		<div class="b5" style="background-image: url(1.4.png);">
+            <span class="c">璀璨时光</span>
+            <span class="d"><br><br>迷失的时候<br>如果能遇见一座灯塔<br><br>那么,哪怕漂洋过海，翻山越岭<br>也能找到回家的路<br><br>萦绕在眼前的薄雾<br>总有被灿烂烈日驱散的一天<br><br>时间辗转<br>唯有爱恒久不灭……</span>
+        </div>
+    </div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<!-- partial -->
+  
+</body>
+</html>
